@@ -1,0 +1,10 @@
+-- After the call of swap(jungleDVD, cinderellaDVD), why does the title of these two 
+objects still remain?
+-> Because the function create another copied of jungleDVD and cinderellaDVD, so that when we swap the value
+of these two new reference, the title of these two objects still remain
+
+-- After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()), why is the title of 
+the JungleDVD changed?
+-> Because the function create a copied of jungleDVD, let call jungleDVD_new. This reference point to the same object
+as jungleDVD. So when we use the setTitle method for jungleDVD_new, the title of the object has changed, so that the title
+of the JungleDVD changed
