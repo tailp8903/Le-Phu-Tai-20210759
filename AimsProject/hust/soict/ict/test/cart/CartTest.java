@@ -1,3 +1,6 @@
+package AimsProject.hust.soict.ict.test.cart;
+import AimsProject.hust.soict.ict.aims.disc.DigitalVideoDisc;
+
 public class CartTest {
     public static void main(String[] args) {
         // Create a new cart

@@ -1,3 +1,6 @@
+package AimsProject.hust.soict.ict.aims.store;
+import AimsProject.hust.soict.ict.aims.disc.DigitalVideoDisc;
+
 public class Store {
     public static final int MAX_NUMBERS_ORDERED = 20;
     private static int qtyOrdered = 0;

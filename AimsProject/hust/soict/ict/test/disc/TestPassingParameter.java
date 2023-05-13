@@ -1,3 +1,6 @@
+package AimsProject.hust.soict.ict.test.disc;
+import AimsProject.hust.soict.ict.aims.disc.DigitalVideoDisc;
+
 public class TestPassingParameter{
     public static void swap(DigitalVideoDisc o1, DigitalVideoDisc o2){
         DigitalVideoDisc tmp = o1;
