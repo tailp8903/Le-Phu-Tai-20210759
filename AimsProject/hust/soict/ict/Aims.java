@@ -1,4 +1,4 @@
-package lab02;
+package AimsProject.hust.soict.ict;
 class Aims {
     public static void main(String[] args) {
         // Create a new cart

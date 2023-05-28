@@ -1,4 +1,4 @@
-package lab02;
+package OthersProject.hust.soict.ict.lab02;
 
 // import java.util.Objects;
 
