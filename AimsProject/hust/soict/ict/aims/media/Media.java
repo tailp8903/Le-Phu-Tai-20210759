@@ -1,4 +1,4 @@
-package AimsProject.hust.soict.ict;
+package AimsProject.hust.soict.ict.aims.media;
 
 public abstract class Media {
     private int id;
@@ -20,8 +20,15 @@ public abstract class Media {
     public void setCategory(String category){ this.category = category; }
     public void setCost(float cost){ this.cost = cost; }
     public int getId(){ return id; }
-    public String getTiltle(){ return title; }
+    public String getTitle(){ return title; }
     public String getCategory(){ return category; }
     public float getCost(){ return cost; }
 
+
+    @Override
+    public boolean equals(Object o){
+        o = (Media) o;
+        if (this.title == o.getTitle()) return true;
+        return false;
+    }
 }

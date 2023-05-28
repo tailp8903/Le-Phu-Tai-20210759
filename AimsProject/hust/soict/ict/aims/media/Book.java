@@ -1,4 +1,4 @@
-package AimsProject.hust.soict.ict;
+package AimsProject.hust.soict.ict.aims.media;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package lab04;
+package AimsProject.hust.soict.ict.aims.media;
 
 public class DigitalVideoDisc extends Disc implements Playable {
     // public DigitalVideoDisc(String title){

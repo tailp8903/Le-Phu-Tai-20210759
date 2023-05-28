@@ -1,4 +1,4 @@
-package lab04;
+package AimsProject.hust.soict.ict.aims.media;
 
 import java.util.List;
 

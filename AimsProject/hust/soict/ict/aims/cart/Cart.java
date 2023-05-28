@@ -1,6 +1,8 @@
-package lab04;
+package AimsProject.hust.soict.ict.aims.cart;
 
 import java.util.ArrayList;
+
+import AimsProject.hust.soict.ict.aims.media.Media;
 
 // import java.util.Objects;
 
@@ -17,6 +19,10 @@ public class Cart {
                 System.out.println("Name: " + itemsOrdered.get(i).getTitle() + "; Category: " + itemsOrdered.get(i).getCategory() + "; Director: " + itemsOrdered.get(i).getDirector() + "; Length: " + itemsOrdered.get(i).getLength() + "; Cost: " + itemsOrdered.get(i).getCost());
             }
         }
+    }
+
+    public int getNumberOfItem(){
+        return itemsOrdered.size();
     }
 
     public void addMedia(Media disc){
