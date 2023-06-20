@@ -1,6 +1,7 @@
 package AimsProject.hust.soict.ict.aims.cart;
 
 import java.util.ArrayList;
+import java.util.Observable;
 
 import AimsProject.hust.soict.ict.aims.media.Media;
 
@@ -8,7 +9,7 @@ import AimsProject.hust.soict.ict.aims.media.Media;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
-    private ArrayList<Media> itemsOrdered = new ArrayList<Media>();
+    private Observable<Media> itemsOrdered = new FXCollections.observableArrayList();
 
     public void display(){
         if (itemsOrdered.size() == 0){
